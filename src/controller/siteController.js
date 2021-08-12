@@ -1,6 +1,6 @@
 class SiteController{
 
-    index(req, res){
+    home(req, res){
         const title = 'Trang chủ';
         res.render('home',{title});
     }
