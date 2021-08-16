@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon --inspect src/index.js",
+    "sass": "node-sass --watch src/resources/scss/ -o src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js"
   },
@@ -24,5 +25,8 @@
     "mongoose-slug-generator": "^1.0.4",
     "nodemon": "^2.0.7",
     "socket.io": "^4.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
   }
 }
